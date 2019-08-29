@@ -8,14 +8,15 @@
  *
  * @author 0788763
  */
-public class Main
+public class MilesPerGallon 
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello " + "World");
+        float milesDriven = 350.5F;
+        float gallonsOfGasUsed = 10;
         
-        String greetingPhrase = "Hello Class";
-        int funNumber = 10;
-        System.out.println(greetingPhrase + "! " + funNumber);
+        float milesPerGallon = milesDriven / gallonsOfGasUsed;
+        
+        System.out.println("Miles per gallon:\t" + milesPerGallon);
     }
 }
